@@ -1,4 +1,5 @@
-import { Github, Linkedin, Mail } from "lucide-react";
+import { Mail } from "lucide-react";
+import { GithubIcon, LinkedinIcon } from "../ui/Icons";
 import { portfolioData } from "../../data/portfolio";
 
 export function Footer() {
@@ -29,7 +30,7 @@ export function Footer() {
             className="text-zinc-400 hover:text-white transition-colors"
             aria-label="GitHub"
           >
-            <Github size={20} />
+            <GithubIcon width={20} height={20} />
           </a>
           <a
             href={portfolioData.personal.linkedin}
@@ -38,7 +39,7 @@ export function Footer() {
             className="text-zinc-400 hover:text-white transition-colors"
             aria-label="LinkedIn"
           >
-            <Linkedin size={20} />
+            <LinkedinIcon width={20} height={20} />
           </a>
         </div>
       </div>

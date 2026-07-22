@@ -1,5 +1,6 @@
 import { portfolioData } from "../../data/portfolio";
-import { Github, ExternalLink } from "lucide-react";
+import { ExternalLink } from "lucide-react";
+import { GithubIcon } from "../ui/Icons";
 
 export function Projects() {
   return (
@@ -51,7 +52,7 @@ export function Projects() {
                       className="flex items-center gap-2 text-sm text-zinc-400 hover:text-white transition-colors link-underline"
                       aria-label={`${project.title} GitHub Repository`}
                     >
-                      <Github size={18} />
+                      <GithubIcon width={18} height={18} />
                       Code
                     </a>
                     <a 

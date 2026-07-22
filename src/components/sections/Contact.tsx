@@ -1,5 +1,6 @@
 import { portfolioData } from "../../data/portfolio";
-import { Mail, Github, Linkedin } from "lucide-react";
+import { Mail } from "lucide-react";
+import { GithubIcon, LinkedinIcon } from "../ui/Icons";
 import { Button } from "../ui/Button";
 
 export function Contact() {
@@ -31,7 +32,7 @@ export function Contact() {
               className="text-zinc-400 hover:text-white transition-colors group flex flex-col items-center gap-2"
             >
               <div className="p-4 rounded-full bg-zinc-950 border border-zinc-900 group-hover:border-zinc-700 transition-colors">
-                <Github size={24} />
+                <GithubIcon width={24} height={24} />
               </div>
               <span className="text-sm font-medium">GitHub</span>
             </a>
@@ -43,7 +44,7 @@ export function Contact() {
               className="text-zinc-400 hover:text-white transition-colors group flex flex-col items-center gap-2"
             >
               <div className="p-4 rounded-full bg-zinc-950 border border-zinc-900 group-hover:border-zinc-700 transition-colors">
-                <Linkedin size={24} />
+                <LinkedinIcon width={24} height={24} />
               </div>
               <span className="text-sm font-medium">LinkedIn</span>
             </a>
