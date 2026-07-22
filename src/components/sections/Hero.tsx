@@ -29,7 +29,7 @@ export function Hero() {
             </Button>
             <Button asChild variant="outline" size="lg">
               <a href={portfolioData.personal.resumeUrl} target="_blank" rel="noopener noreferrer">
-                Resume
+                Download Resume
               </a>
             </Button>
           </div>

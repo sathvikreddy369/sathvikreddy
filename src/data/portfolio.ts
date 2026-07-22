@@ -4,10 +4,12 @@ export const portfolioData = {
     role: "Computer Science and Engineering (AI & ML) Student",
     subRoles: ["Full Stack Developer", "AI & ML Enthusiast"],
     about: "I'm an engineering student passionate about building scalable software and solving complex problems. I have a strong interest in backend engineering, full stack development, and the fascinating worlds of Artificial Intelligence and Machine Learning. I'm constantly learning new technologies and improving my data structures and algorithms (DSA) skills to write better, more efficient code.",
-    resumeUrl: "#", // Placeholder
-    email: "sathvikreddy@example.com", // Replace with real email
-    github: "https://github.com/", // Replace with real github
-    linkedin: "https://linkedin.com/in/" // Replace with real linkedin
+    resumeUrl: "/resume.pdf",
+    email: "satreddyyy@gmail.com",
+    phone: "+91 7013306167",
+    location: "Hyderabad, Telangana, India",
+    github: "https://github.com/sathvikreddy369",
+    linkedin: "https://linkedin.com/in/sathvikreddy369"
   },
   skills: {
     languages: ["Java", "Python", "JavaScript", "TypeScript"],
@@ -20,27 +22,58 @@ export const portfolioData = {
   projects: [
     {
       title: "PlayGrid",
-      description: "A sports community platform that connects players, organizers, and venues. Built for real-time interactions and seamless event management.",
-      techStack: ["React", "Node.js", "PostgreSQL", "Prisma", "Socket.IO", "Firebase"],
+      subtitle: "Sports Community & Venue Management Platform",
+      description: "Engineered a full-stack sports community platform enabling players, organizers, and venue owners to discover matches, manage communities, organize tournaments, and coordinate sports activities.",
+      techStack: ["React", "TypeScript", "Node.js", "Express.js", "PostgreSQL (Supabase)", "Prisma ORM", "Firebase Authentication", "Socket.IO", "Cloudinary", "Mapbox", "Google Gemini API"],
+      features: [
+        "Authentication",
+        "Community management",
+        "Tournament management",
+        "Venue discovery",
+        "Real-time messaging",
+        "AI-powered moderation",
+        "Personalized recommendations",
+        "Responsive dashboards"
+      ],
       github: "#",
       liveDemo: "#",
-      image: "https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?q=80&w=2069&auto=format&fit=crop"
+      image: "" // Placeholder left intentionally blank
     },
     {
       title: "KetoWarrior",
-      description: "An AI-powered food calorie estimation system using computer vision to analyze meals and provide accurate nutritional breakdowns.",
-      techStack: ["React", "Python", "Machine Learning", "Computer Vision"],
+      subtitle: "AI-Powered Nutrition Tracking Platform",
+      description: "Built an AI-powered nutrition tracking platform using modern web technologies and computer vision to estimate calories and nutrition from food images.",
+      techStack: ["React", "Node.js", "Express.js", "MongoDB Atlas", "Firebase Firestore", "Firebase Authentication", "Cloudinary", "YOLOv8", "Google Gemini API"],
+      features: [
+        "Food image recognition",
+        "Nutrition estimation",
+        "BMI calculator",
+        "Calorie tracking",
+        "Personalized dashboards",
+        "Daily goals",
+        "Progress analytics",
+        "Conversational AI"
+      ],
       github: "#",
       liveDemo: "#",
-      image: "https://images.unsplash.com/photo-1490645935967-10de6ba17061?q=80&w=2053&auto=format&fit=crop"
+      image: "" // Placeholder left intentionally blank
     },
     {
-      title: "NearMe",
-      description: "A vendor discovery platform leveraging geolocation services to help users find and interact with local businesses efficiently.",
-      techStack: ["React", "Firebase", "Mapbox"],
+      title: "Recommend",
+      subtitle: "AI-Powered Cross-Domain Recommendation Platform",
+      description: "A recommendation platform providing intelligent movie, music, and book recommendations using semantic search and large language models.",
+      techStack: ["React", "Express.js", "Firebase Authentication", "Firebase Firestore", "REST APIs", "Google Gemini API"],
+      features: [
+        "Authentication",
+        "Personalized recommendations",
+        "Semantic search",
+        "Administrator dashboard",
+        "Cross-domain recommendations",
+        "User preference analysis"
+      ],
       github: "#",
       liveDemo: "#",
-      image: "https://images.unsplash.com/photo-1524661135-423995f22d0b?q=80&w=2074&auto=format&fit=crop"
+      image: "" // Placeholder left intentionally blank
     }
   ],
   education: [
