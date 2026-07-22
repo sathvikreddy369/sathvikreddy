@@ -4,10 +4,9 @@ export const portfolioData = {
     role: "Computer Science and Engineering (AI & ML) Student",
     subRoles: ["Full Stack Developer", "AI & ML Enthusiast"],
     about: "I'm an engineering student passionate about building scalable software and solving complex problems. I have a strong interest in backend engineering, full stack development, and the fascinating worlds of Artificial Intelligence and Machine Learning. I'm constantly learning new technologies and improving my data structures and algorithms (DSA) skills to write better, more efficient code.",
-    resumeUrl: "/resume.pdf",
-    email: "satreddyyy@gmail.com",
-    phone: "+91 7013306167",
-    location: "Hyderabad, Telangana, India",
+    resumeUrl: "/sathvikreddyResume.pdf",
+    email: "psathvikreddy369@gmail.com",
+    location: "Hyderabad, India",
     github: "https://github.com/sathvikreddy369",
     linkedin: "https://linkedin.com/in/sathvikreddy369"
   },
@@ -35,7 +34,7 @@ export const portfolioData = {
         "Personalized recommendations",
         "Responsive dashboards"
       ],
-      github: "#",
+      github: "https://github.com/sathvikreddy369",
       liveDemo: "#",
       image: "" // Placeholder left intentionally blank
     },
@@ -54,8 +53,8 @@ export const portfolioData = {
         "Progress analytics",
         "Conversational AI"
       ],
-      github: "#",
-      liveDemo: "#",
+      github: "https://github.com/sathvikreddy369",
+      liveDemo: "https://ketowarrior.vercel.app",
       image: "" // Placeholder left intentionally blank
     },
     {
@@ -71,8 +70,8 @@ export const portfolioData = {
         "Cross-domain recommendations",
         "User preference analysis"
       ],
-      github: "#",
-      liveDemo: "#",
+      github: "https://github.com/sathvikreddy369",
+      liveDemo: "https://smartbinge.vercel.app",
       image: "" // Placeholder left intentionally blank
     }
   ],
@@ -81,7 +80,18 @@ export const portfolioData = {
       institution: "Keshav Memorial Institute of Technology",
       degree: "Bachelor of Technology",
       major: "Computer Science and Engineering (AI & ML)",
-      graduation: "Expected Graduation: 2027"
+      graduation: "2023 - 2027",
+      scoreLabel: "CGPA",
+      score: "8.0/10",
+      coursework: "Data Structures & Algorithms, Object-Oriented Programming, Database Management Systems, Machine Learning"
+    },
+    {
+      institution: "Sri Chaitanya Junior College",
+      degree: "Intermediate",
+      major: "Maths, Physics, Chemistry (MPC)",
+      graduation: "2021 - 2023",
+      scoreLabel: "Percentage",
+      score: "98%"
     }
   ]
 };

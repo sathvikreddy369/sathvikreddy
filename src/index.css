@@ -1,5 +1,5 @@
 @import "tailwindcss";
-
+@custom-variant dark (&:where(.dark, .dark *));
 @theme {
   --font-sans: "Inter", system-ui, sans-serif;
   
@@ -11,13 +11,11 @@
 
 @layer base {
   :root {
-    background-color: var(--color-background);
-    color: var(--color-foreground);
     font-family: var(--font-sans);
   }
 
   body {
-    @apply m-0 p-0 min-h-screen bg-black text-white antialiased selection:bg-white selection:text-black;
+    @apply m-0 p-0 min-h-screen bg-white text-zinc-900 dark:bg-black dark:text-white antialiased selection:bg-zinc-900 selection:text-white dark:selection:bg-white dark:selection:text-black transition-colors duration-300;
   }
 
   html {
